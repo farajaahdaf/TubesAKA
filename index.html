@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Besar AKA 2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Analisis Bilangan Ganjil dan Genap dalam Array</h1>
+            <h2>Pendekatan Iteratif vs Rekursif</h2>
+            <div class="authors">
+                <h4>Disusun Oleh:</h4>
+                <ul>
+                    <li>- Mohammad Faraja Ahdaf (103012300178)</li>
+                    <li>- Muhammad Rakha Pratama (103012300131)</li>
+                </ul>
+            </div>
+        </header>
+        
+        <main class="container">
+            <div class="input-section">
+                <label for="inputArray">Masukkan Bilangan : </label>
+                <input type="text" id="inputArray" placeholder="Contoh: 1, 2, 3, 4, 5 (Pemisahan koma)">
+            </div>
+
+            <div class="button-group">
+                <button onclick="processIterative()">Iteratif</button>
+                <button onclick="processRecursive()">Rekursif</button>
+            </div>
+
+            <div id="results">
+                <h3>Hasil Analisis : </h3>
+                <p id="evenResults"></p>
+                <h1></h1>
+                <p id="oddResults"></p>
+                <h1></h1> 
+                <p id="executionTime"></p>
+            </div>
+        </main>
+
+        <footer>
+            <h4>Tugas Besar Analisis Kompleksitas Algoritma 2024.</h4>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
